@@ -6,12 +6,13 @@
 
 	sudo passwd root
 
-# Make clipboard of host available ---------------
+# Install Neovim -------------------------------
 
-	sudo apt-get -y install xorg-video-abi-20
-	sudo apt-get -y install  xserver-xorg-core
-	sudo apt-get -y install virtualbox-guest-x11
-	sudo VBoxClient --clipboard
+	sudo apt -y install neovim
+
+# Install tmux ------------------------------- 
+
+	sudo apt-get -y install tmux
 
 # Install Open SSH ------------------------------- 
 
@@ -64,29 +65,4 @@
 
 	cd ~/Downloads
 	wget https://download1.rstudio.org/desktop/bionic/amd64/rstudio-1.2.1335-amd64.deb 
-	sudo gdebi rstudio-xenial-1.1.447-amd64.deb
-
-# Install Neovim -------------------------------
-
-	sudo apt -y install neovim
-
-# Install tmux ------------------------------- 
-
-	sudo apt-get -y install tmux
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        sudo gdebi rstudio-1.2.1335-amd64.deb 
